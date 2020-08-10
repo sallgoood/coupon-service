@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+security:
+  jwt:
+    token:
+      secret-key: secret-key
+      expire-length: 300000
+
+expiry-reminder-notification-before-days: 3
